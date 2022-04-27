@@ -1,55 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Landing-E3</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Landing-E3</title>
-</head>
+  <body>
+    <nav class="nav">
+      <h1 class="nav__logo">santílli</h1>
 
-<body>
+      <label for="menu-toggle">
+        <div class="menu-button">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </label>
 
-  <nav class="nav">
+      <input type="checkbox" name="" id="menu-toggle" class="menu-toggle" />
 
-    <h1 class="nav__logo">santílli</h1>
+      <ul class="toggle">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Empresa</a></li>
+        <li><a href="#">Documentacion</a></li>
+        <li><a href="#">Soporte</a></li>
+      </ul>
+    </nav>
 
-    <label for="menu-toggle">
-      <div class="menu-button">
-        <i class="fa-solid fa-bars"></i>
+    <div class="contenedor">
+      <div class="info">
+        <h1>Todas las fuentes de ingresos digitales</h1>
+        <p class="info__p">
+          Santili le permite dirigirse a los clientes correctos, lograr alcance
+          global y monetizar las experiencias digitales de una nueva manera.
+        </p>
+        <button type="submit"><a href="#"></a>Contratar</button>
       </div>
-    </label>
-
-    <input type="checkbox" name="" id="menu-toggle" class="menu-toggle" />
-
-
-    <ul class="toggle">
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Contacto</a></li>
-      <li><a href="#">Empresa</a></li>
-      <li><a href="#">Documentacion</a></li>
-      <li><a href="#">Soporte</a></li>
-    </ul>
-
-  </nav>
-
-  <div class="contenedor">
-    <div class="info">
-      <h1>Todas las fuentes de ingresos digitales</h1>
-      <p class="info__p">
-        Santili le permite dirigirse a los clientes correctos, lograr alcance
-        global y monetizar las experiencias digitales de una nueva manera.
-      </p>
-      <button type="submit"><a href="#"></a>Contratar</button>
+      <div class="contenido">
+        <img src="/img/support-team.png" alt="" / class="img__content">
+      </div>
     </div>
-    <div class="contenido">
-      <img src="/img/support-team.png" alt="" / class="img__content">
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
