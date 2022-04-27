@@ -24,6 +24,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 12px;
+  position: sticky;
+  top: 0px;
+  background-color: rgba(0, 0, 0, .6);
 }
 
 .nav h1 {
@@ -48,8 +51,7 @@ body {
 .toggle {
   display: none;
   text-align: center;
-  background: black;
-  opacity: 0.6;
+  background: rga(0, 0, 0, .6);
   margin: 0 auto;
   height: 100%;
 }
@@ -65,11 +67,11 @@ body {
   text-decoration: none;
   color: white;
   padding: 10px;
+  border-radius: 8px;
 }
 
 .toggle a:hover{
     background-color: var(--blue);
-    opacity: 1;
     transition: .3s;
 }
 
