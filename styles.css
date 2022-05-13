@@ -311,6 +311,43 @@ footer {
   transition: all 0.3s;
 }
 
+.clients{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+}
+
+.clients__title{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.clients__logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 400px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border-bottom: solid var(--blue) 5px;
+}
+
+.clients__logos img{
+  width: 60px;
+  margin: 20px;
+}
+
 @media screen and (min-width: 1000px) {
   .nav {
     background: rgba(0, 0, 0, 0.5);
